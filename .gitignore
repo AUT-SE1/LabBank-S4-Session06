@@ -1,0 +1,34 @@
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+!.env.*.example
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local project references, extracted files, and generated documents
+/منبع پروژه/
+
+# Previous generated-output location (includes a currently locked Word file)
+/deliverables/
+
+# Frontend dependencies and generated output; commit the package lockfile.
+node_modules/
+/frontend/dist/
+/frontend/coverage/
+*.tsbuildinfo
+.vite/
+.work-docs/
